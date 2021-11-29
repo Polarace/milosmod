@@ -1,4 +1,3 @@
-
 modLoader="javafml" #mandatory
 loaderVersion="[37,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 license="All rights reserved"
