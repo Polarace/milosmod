@@ -4,10 +4,10 @@ license="All rights reserved"
 [[mods]] #mandatory
 modId="milos" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="Milos Mod" #mandatory
-logoFile="milos.png" #optional
-credits="Chestka Memu" #optional
-authors="polaracep" #optional
+displayName="Example Mod" #mandatory
+logoFile="examplemod.png" #optional
+credits="Thanks for this example mod goes to Java" #optional
+authors="Love, Cheese and small house plants" #optional
 description='''milda'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.milos]] #optional
@@ -25,7 +25,7 @@ description='''milda'''
 [[dependencies.milos]]
     modId="minecraft"
     mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.17.1,1.18)"
     ordering="NONE"
     side="BOTH"
+    

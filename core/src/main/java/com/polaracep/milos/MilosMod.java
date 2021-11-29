@@ -9,7 +9,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.polaracep.milos.item.ModItems;
+import com.polaracep.milos.init.EntityInit;
+import com.polaracep.milos.init.ItemInit;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(MilosMod.MOD_ID)
@@ -25,7 +26,9 @@ public class MilosMod
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         
-        ModItems.register(eventBus);
+        ItemInit.register(eventBus);
+        
+        EntityInit.register(eventBus);
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
