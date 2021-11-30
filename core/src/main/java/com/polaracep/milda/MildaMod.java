@@ -1,4 +1,4 @@
-package com.polaracep.milos;
+package com.polaracep.milda;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -9,20 +9,20 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import com.polaracep.milos.init.EntityInit;
-import com.polaracep.milos.init.ItemInit;
+import com.polaracep.milda.init.EntityInit;
+import com.polaracep.milda.init.ItemInit;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(MilosMod.MOD_ID)
-public class MilosMod
+@Mod(MildaMod.MOD_ID)
+public class MildaMod
 {
 	// Mod ID
-	public static final String MOD_ID = "milos";
+	public static final String MOD_ID = "milda";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
     
 
-    public MilosMod() {
+    public MildaMod() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         

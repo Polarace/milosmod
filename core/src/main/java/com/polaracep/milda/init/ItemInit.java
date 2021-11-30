@@ -1,6 +1,6 @@
-package com.polaracep.milos.init;
+package com.polaracep.milda.init;
 
-import com.polaracep.milos.MilosMod;
+import com.polaracep.milda.MildaMod;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ItemInit {
 
-	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MilosMod.MOD_ID);
+	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MildaMod.MOD_ID);
 	
 	public static final RegistryObject<Item> STOVKA_ITEM = ITEMS.register("stokoruna", 
 			() -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
