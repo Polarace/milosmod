@@ -1,5 +1,8 @@
 {
   "item.milda.stokoruna": "Sto korun ceskych",
   "item.milda.cigareta":  "Cigareta",
-  "entity.milda.milos":   "Milos"
+  "entity.milda.milos":   "Milos",
+  "entity.milda.milos_vozicek": "Milos na vozicku", 
+  "item.milda.milos_spawn_egg": "Milos spawn egg",
+  "item.milda.milos_vozicek_spawn_egg": "Milos na vozicku spawn egg"
 }

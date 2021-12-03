@@ -15,9 +15,9 @@ import net.minecraft.world.entity.ai.goal.WaterAvoidingRandomStrollGoal;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 
-public class MilosEntity extends PathfinderMob{
-
-	public MilosEntity(EntityType<? extends PathfinderMob> entityType, Level level) {
+public class MilosVozicekEntity extends PathfinderMob{
+	
+	public MilosVozicekEntity(EntityType<? extends PathfinderMob> entityType, Level level) {
 		super(entityType, level);
 	}
 	

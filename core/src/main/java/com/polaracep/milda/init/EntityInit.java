@@ -2,6 +2,7 @@ package com.polaracep.milda.init;
 
 import com.polaracep.milda.MildaMod;
 import com.polaracep.milda.entity.MilosEntity;
+import com.polaracep.milda.entity.MilosVozicekEntity;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
@@ -23,6 +24,11 @@ public class EntityInit {
 			() -> EntityType.Builder.of(MilosEntity::new, MobCategory.CREATURE)
 			.sized(0.6f, 1.8f)
 			.build(new ResourceLocation(MildaMod.MOD_ID, "milos").toString()));
+	
+	public static final RegistryObject<EntityType<MilosVozicekEntity>> MILOS_VOZICEK = ENTITIES.register("milos_vozicek", 
+			() -> EntityType.Builder.of(MilosVozicekEntity::new, MobCategory.CREATURE)
+			.sized(0.6f, 1.4f)
+			.build(new ResourceLocation(MildaMod.MOD_ID, "milos_vozicek").toString()));
 	
 	
 	public static void register(IEventBus eventBus) {
